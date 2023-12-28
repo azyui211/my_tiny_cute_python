@@ -23,7 +23,6 @@ import shutil
 shutil.copy2("/pathA/fileA.pdf", "/pathB/sub/fileB.pdf")
 # 폴더 복사
 shutil.copytree("/pathA/subA", "/pathB/")
-
 ```
 
 

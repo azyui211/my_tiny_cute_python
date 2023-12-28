@@ -19,11 +19,15 @@ os.path.dirname("경로")
 #      os.path.dirname("/projects/testA")
 #      --> "/projects"
 
-
 # 파일 복사
 shutil.copy2("/pathA/fileA.pdf", "/pathB/sub/fileB.pdf")
 # 폴더 복사
 shutil.copytree("/pathA/subA", "/pathB/")
+
+import os
+
+pathA = "/home/seokwon.choi/mySrc"
+os.listdir(pathA)
 
 
 

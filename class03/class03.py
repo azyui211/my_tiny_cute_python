@@ -40,7 +40,6 @@ def multiplication(input_number):
 
 multiplication(3)
 
-
 pathA = "/projects/sequences/fileA.pdf"
         
 import os

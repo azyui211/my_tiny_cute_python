@@ -43,7 +43,21 @@ def multiplication(input_number):
 - ##### 파일 다루기
 ```
 import os
+pathA = "/projects/sequences/fileA.pdf"
+
 os.listdir("폴더 경로")
-os.rename("fileA.pdf", "fileB.pdf")
+os.rename("/projects/sub/fileA.pdf", "/projects/sub/fileB.pdf")
 os.makedirs("생성할 폴더경로")
+os.path.splitext(pathA)
+
+pathA = "/projects/folder"
+def replaceExt(pathA, ext, target_ext):
+    for file_name in os.listdir(pathA):
+        if os.path.splitext(file_name)[1] == ext:
+            original_file = pathA + "/" + file_name
+            target_file = pathA + "/" + file_name.replace(ext, target_ext)
+            os.rename(original_file, target_file)
+            
+replaceExt("/projects/", ".jpg", ".png")
+replaceExt("/projects/A/", ".mp4", ".mov")
 ```
