@@ -8,7 +8,6 @@ for item in ["A", "B", "C", "D", "E"]:
 
 for num in range(5):
     print(num)
-
 ```
 
 - ##### if 문
@@ -19,10 +18,14 @@ if 조건:
 else:
     실행B
 
+if fileExt == "png" or fileExt == "jpg":
+    execA
+elif fileExt == "png":
+
 # else는 생략가능
 # elif로 다중 조건 설정 가능
 # if 문에서 빈번하게 사용되는 bool
-
+True, False
 
 # 예시
 status = "ip"

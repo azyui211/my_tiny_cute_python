@@ -40,4 +40,10 @@ def multiplication(input_number):
         print(str(input_number) + " x " + str(num) + " = " + str(input_number*num))
 ```
 
-
+- ##### 파일 다루기
+```
+import os
+os.listdir("폴더 경로")
+os.rename("fileA.pdf", "fileB.pdf")
+os.makedirs("생성할 폴더경로")
+```
