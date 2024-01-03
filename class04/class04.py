@@ -24,10 +24,26 @@ shutil.copy2("/pathA/fileA.pdf", "/pathB/sub/fileB.pdf")
 # 폴더 복사
 shutil.copytree("/pathA/subA", "/pathB/")
 
-import os
-
 pathA = "/home/seokwon.choi/mySrc"
 os.listdir(pathA)
 
+중국집A = 중국집()
+중국집A.면만드는함수()
 
+
+class 중국집B()
+
+class 중국집(중국집B):
+    def __init__(self):
+        self.사장님 = ""
+        self.위치 = ""
+        전화번호 = ""
+        self.sg = shotgun_api3()
+    
+    def 샷 목록 받아오기(self, 밀가루, 물):
+        self.sg
+        return 면
+
+    def 어셋 목록 받아오기(self, 물, 재료):
+        
 

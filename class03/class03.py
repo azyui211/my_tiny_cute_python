@@ -48,6 +48,8 @@ os.makedirs("/projects/sequences")
 os.path.splitext(pathA)[1]
 
 pathA = "/projects/folder"
+
+
 def replaceExt(pathA, ext, target_ext):
     for file_name in os.listdir(pathA):
         if os.path.splitext(file_name)[1] == ext:
