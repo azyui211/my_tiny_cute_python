@@ -27,23 +27,28 @@ shutil.copytree("/pathA/subA", "/pathB/")
 pathA = "/home/seokwon.choi/mySrc"
 os.listdir(pathA)
 
+
 중국집A = 중국집()
 중국집A.면만드는함수()
 
 
-class 중국집B()
+class 중국집B():
+    def __init__(self):
+        None
 
 class 중국집(중국집B):
     def __init__(self):
         self.사장님 = ""
         self.위치 = ""
         전화번호 = ""
-        self.sg = shotgun_api3()
-    
-    def 샷 목록 받아오기(self, 밀가루, 물):
-        self.sg
+        
+    def 면만드는함수(self, 밀가루, 물):
+        면 = 밀가루 + 물
         return 면
 
-    def 어셋 목록 받아오기(self, 물, 재료):
+    def 육수만드는함수(self, 물, 재료):
+        육수 = 물 + 재료
+        return 육수
+        
         
 
