@@ -1,8 +1,16 @@
-# Git 설치
 
-# M1
-# val $(/opt/homebrew/bin/brew shellenv)
+# Git 설치
+# Git install in M1 Macbook
+# eval $(/opt/homebrew/bin/brew shellenv)
 # brew install git
+
+# SSH 키 등록
+# ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+# C:\Users\UserName\.ssh\id_rsa.pub
+
+# Git 세팅
+# git config --global user.name username
+# git config --global user.email user@email.com
 
 import shotgun_api3
 
@@ -17,3 +25,4 @@ class shotgrid_api():
         sg = shotgun_api3.Shotgun(SERVER_PATH, SCRIPT_NAME, SCRIPT_KEY)
 
         return sg
+
