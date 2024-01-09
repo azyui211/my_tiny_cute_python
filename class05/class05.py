@@ -33,8 +33,13 @@ filt = [["code", "is", "APP_0010"],
 fied = ["sg_cut_in"]
 sg.find("Shot", filt, fied)
 
+project_name = "2023_06_theKillers"
+filter_group = [["project.Project.name", "is", project_name]]
+field_group = ["sg_status_list", "sg_task.Task.sg_status_list", "created_at", "entity.Shot.sg_status_list"]
+res = sg.find("Version", filter_group, field_group)
 
-
+for ver_item in res:
+    print(ver_item["created_at"].strftime('%Y%m%d %H:%M'))
     
 
 
