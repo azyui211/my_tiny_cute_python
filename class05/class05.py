@@ -26,3 +26,23 @@ class shotgrid_api():
 
         return sg
 
+import shotgun_api3
+SERVER_PATH = 'https://giantstep.shotgunstudio.com'
+SCRIPT_NAME = 'shotgrid_mov_uploader'
+SCRIPT_KEY  = 'mvmxazyukt&dqgh2lbgBqpyyz'
+
+sg = shotgun_api3.Shotgun(SERVER_PATH, SCRIPT_NAME, SCRIPT_KEY)
+
+필터 = []
+필드 목록 = []
+
+filt = [["code", "is", "APP_0010"],
+        ["project.Project.name", "is", "2023_06_theKillers"] ]
+fied = ["sg_cut_in"]
+sg.find("Shot", filt, fied)
+
+
+
+    
+
+
