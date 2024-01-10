@@ -127,12 +127,20 @@ words = [who, category]
 # 실습 예제
 아래의 mov_path 경로를 가지고 다음의 요소들을 변수로 등록해보기
 
-project 이름
-shot 이름
-task 이름
-mov_version (숫자 형태 / 문자열 형태 - v000)
-shot 폴더경로
-task 폴더경로
-프로젝트 이름으로부터 프로젝트를 등록한 년월을 숫자 네자리로 표현 ex) 2306
+project 이름                                    관련항목 : 자르기
+shot 이름                                       관련항목 : 자르기
+task 이름                                       관련항목 : 자르기
+mov_version (숫자 형태 / 문자열 형태 - v000)       관련항목 : 자르기, 숫자 표현
+shot 폴더경로                                    관련항목 : 자르기, 인덱스, 인덱스 자르기, 붙이기
+task 폴더경로                                    관련항목 : 자르기, 인덱스, 인덱스 자르기, 붙이기
+프로젝트를 등록한 년월을 숫자 네자리로 표현 ex) 2306    관련항목 : 자르기, 인덱스 자르기, 붙이기
 '''
 mov_path = "/projects/2023_06_theKillers/sequence/INJ/INJ_0040/animation/ani01/dev/images/mov/INJ_0040_ani01_v005_w04.mov"
+project_name = 
+shot_name = 
+task_name = 
+mov_version_int = 
+mov_version_str = 
+shot_path =
+task_path =
+project_registered_date =
