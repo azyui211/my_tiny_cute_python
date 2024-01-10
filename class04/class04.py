@@ -50,5 +50,10 @@ class 중국집(중국집B):
         육수 = 물 + 재료
         return 육수
         
-        
 
+
+import my_codes
+
+
+
+my_codes.make_dirs
