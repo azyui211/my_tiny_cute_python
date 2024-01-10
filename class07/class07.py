@@ -121,3 +121,18 @@ words = [who, category]
 "_".join(words)
 " ".join(words)
 "/".join(words)
+
+
+'''
+# 실습 예제
+아래의 mov_path 경로를 가지고 다음의 요소들을 변수로 등록해보기
+
+project 이름
+shot 이름
+task 이름
+mov_version (숫자 형태 / 문자열 형태 - v000)
+shot 폴더경로
+task 폴더경로
+프로젝트 이름으로부터 프로젝트를 등록한 년월을 숫자 네자리로 표현 ex) 2306
+'''
+mov_path = "/projects/2023_06_theKillers/sequence/INJ/INJ_0040/animation/ani01/dev/images/mov/INJ_0040_ani01_v005_w04.mov"
