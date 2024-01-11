@@ -70,12 +70,23 @@ for i in list(dictA.keys()):
 
 
 
+#### 아래의 실습 두 가지는 처음 파이썬을 학습하는 입장에서 난이도가 매우*2 높을 수 있습니다.
+
 ### 문자열 + 리스트 조합 예제
-# 아래의 목록으로 {샷이름:{task이름:파일이름}} 형태의 딕셔너리 만들기
+# 아래의 리스트로 {샷이름:{task이름:파일이름}} 형태의 딕셔너리 만들기
+
 listA = ["EDU_0010_ani01_v001_w01.mov",
          "EDU_0010_mmv01_v003_w02.mov",
          "EDU_0020_crd01_v002_w01.mov",
          "EDU_0030_lgt01_v004.mov",
          "EDU_0030_ani01_v002_w05.mov",
          "EDU_0040_mmv01_v001.mov"]
+
+
+### 리스트 + 딕셔너리 예제 1
+# 아래의 리스트에서 "path"의 value 값으로만 이루어진 리스트 만들기
+
+dictA = [{"shot_name": "EDU_0010", "task_name": "ani01", "path": "/projects/2022_09_pipelineEDU2/sequence/EDU/EDU_0010"},
+         {"shot_name": "INJ_0010", "task_name": "cmp01", "path": "/projects/2023_06_theKillers/sequence/INJ/INJ_0010"},
+         {"shot_name": "TST_0010", "task_name": "lgt01", "path": "/projects/2022_06_lostArk/sequence/TST/TST_0010"}]
 
